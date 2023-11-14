@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>UrlapGrid</title>
+</head>
+  <body>
+    <nav>
+  <h2>Regisztráció</h2>
+
+  <header class="header">
+    <div class="megszol">Megszolítás:</div>
+        <div class="holgy">
+          <input type="radio" name="neme" class="kor">
+          <label for="lany" name="lany" id="fiu">Úrhölgy</label>
+          <input type="radio" name="neme" class="kor">
+          <label for="fiu" name="fiu" id="fiu">Úr</label>
+        </div>
+  </header>
+
+    <div class="container">
+
+      <div class="baloldal">
+        <div class="nev">
+          <label for="vezetek">Vezetéknév:*</label>
+          <input type="text">
+        </div>
+        <div class="datum">
+          <label for="datum">Születési Dátum:</label>
+          <input type="date">
+        </div>
+        <div class="email">
+          <label for="email">E-Mail cím:*</label>
+          <input type="text">
+        </div>
+        <div class="jelszo">
+          <label for="jelszo">Jelszó:*</label>
+          <input type="password">
+        </div>
+      </div>
+
+      <div class="jobboldal">
+        <div class="nev2">
+          <label for="vezetek">Keresztnév:*</label>
+          <input type="text">
+        </div>
+        <div class="emailagain">
+          <label for="emailagain">E-mail cím ismételt megadása:*</label>
+          <input type="text">
+        </div>
+        <div class="jelszoagain">
+          <label for="jelszoagain">Jelszó ismételt megadása:*</label>
+          <input type="password">
+        </div>
+        </div>
+      </div>
+
+        
+        <div class="footer">
+          <div class="kotelezo">*-kötelező mezők</div>
+        <div class="elsoszoveg">
+          <input type="checkbox" name="valasz" class="kocka">
+          <label for="igen" name="igen" id="igen">Tudomásul vettem és elfogadom az <u>Általános Szerződési Feltételek</u>-et, valamint az Adatkezelési tájékoztató-ban foglaltakat.*</label>
+        </div class="masodikszoveg">
+        <div>
+          <input type="checkbox" name="valasz" class="kocka">
+          <label for="nem" name="nem" id="nem">Szeretnék feliratkozni a <b>A dm Hírlevelem</b>-re. A hírlevélről bármikor leiratkozhatok. A <u>Hozzájárulás a dm hírlevélhez</u>-t elolvastam és elfogadom</label>
+        </div>
+        <div class="gomb">
+          <button><a href="https://www.google.com/">Tovább</a></button>
+        </div>
+      </nav>
+  </body>
+</html>
